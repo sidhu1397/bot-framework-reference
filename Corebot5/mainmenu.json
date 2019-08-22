@@ -1,0 +1,150 @@
+{
+  "luis_schema_version": "3.2.0",
+  "versionId": "0.1",
+  "name": "mainmenu",
+  "desc": "",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "intents": [
+    {
+      "name": "activate"
+    },
+    {
+      "name": "Add a team member"
+    },
+    {
+      "name": "Assign Ownership"
+    },
+    {
+      "name": "Greeting"
+    },
+    {
+      "name": "New Project Creation"
+    },
+    {
+      "name": "None"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "activate a project",
+      "intent": "activate",
+      "entities": []
+    },
+    {
+      "text": "activate a project in enterproj application",
+      "intent": "activate",
+      "entities": []
+    },
+    {
+      "text": "add a team member",
+      "intent": "Add a team member",
+      "entities": []
+    },
+    {
+      "text": "add a team member in enterproj application",
+      "intent": "Add a team member",
+      "entities": []
+    },
+    {
+      "text": "add team member in enterproj application",
+      "intent": "Add a team member",
+      "entities": []
+    },
+    {
+      "text": "assign ownership in a project",
+      "intent": "Assign Ownership",
+      "entities": []
+    },
+    {
+      "text": "assign ownership in a project in the enterproj application?",
+      "intent": "Assign Ownership",
+      "entities": []
+    },
+    {
+      "text": "create a new project",
+      "intent": "New Project Creation",
+      "entities": []
+    },
+    {
+      "text": "create new project in enterproj application",
+      "intent": "New Project Creation",
+      "entities": []
+    },
+    {
+      "text": "good morning",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hello bot",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hello!",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hey!",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hi",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hi bot",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hi there!",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "how to activate a project in enterproj application?",
+      "intent": "activate",
+      "entities": []
+    },
+    {
+      "text": "how to add a team member in enterproj application?",
+      "intent": "Add a team member",
+      "entities": []
+    },
+    {
+      "text": "how to assign ownership in a project in the enterproj application?",
+      "intent": "Assign Ownership",
+      "entities": []
+    },
+    {
+      "text": "how to assign ownership in a project>",
+      "intent": "Assign Ownership",
+      "entities": []
+    },
+    {
+      "text": "how to create new project in enter proj application?",
+      "intent": "New Project Creation",
+      "entities": []
+    },
+    {
+      "text": "how to enterproj new project creation?",
+      "intent": "New Project Creation",
+      "entities": []
+    }
+  ],
+  "settings": []
+}
