@@ -1,0 +1,45 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - enterproj_service
+  - enterproj_q1
+  - intent_yes
+  - intent_no
+
+
+actions:
+- utter_greet
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+- action_enterproj_service
+- action_enterproj_service_q1
+- action_viewagain
+- utter_restart
+
+templates:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_restart:
+  - text: "Going Back to enterproj menu"
