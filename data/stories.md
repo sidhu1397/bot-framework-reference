@@ -26,34 +26,47 @@
 * goodbye
   - utter_goodbye
 
-## loop_enterproj
-* intent_yes
+## greeting
+* greet
+  - utter_greet
+
+## enterproj_service_direct
+* enterproj_service
   - action_enterproj_service
+
+## enterproj_q1_direct
 * enterproj_q1
   - action_enterproj_service_q1
   - action_viewagain
 
+## enterproj_q2_direct
+* enterproj_q2
+  - action_enterproj_service_q2
+  - action_viewagain
 
+## enterproj_q3_direct
+* enterproj_q3
+  - action_enterproj_service_q3
+  - action_viewagain
+
+## enterproj_q4_direct
+* enterproj_q4
+  - action_enterproj_service_q4
+  - action_viewagain
+
+
+## loop_enterproj
+* intent_yes
+  - action_enterproj_service
 
 ## enterproj_services_1
 * greet
   - utter_greet
 * enterproj_service
   - action_enterproj_service
-* enterproj_q1
-  - action_enterproj_service_q1
-  - action_viewagain
 
 
-
-
-## enterproj_services_2
-* greet
-  - utter_greet
-* enterproj_service
-  - action_enterproj_service
-* enterproj_q1
-  - action_enterproj_service_q1
-  - action_viewagain
+## no_story
 * intent_no
   - utter_goodbye
+

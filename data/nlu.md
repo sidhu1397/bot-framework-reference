@@ -55,7 +55,26 @@
 - what are services you support?
 - what do you know?
 - i need your help
+- enterpro services
+- go to enterproj services
+- show me enterproj services
+
 ## intent:enterproj_q1
 - how to activate a project in enterproj application
 - activate a project in enterproj application
 - activate a project
+
+## intent:enterproj_q2
+- how to add a team member in enterproj application
+- add a team member en enterproj application
+- how to add a team member
+
+##intent:enterproj_q3
+- how to assign ownership in enterproj application
+- assign ownership in enterproj application
+- how to assign ownership
+
+##intent:enterproj_q4
+- how to create new project in enterproj application
+- create new project in enterproj application
+- how to create new project
